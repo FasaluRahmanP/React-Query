@@ -18,7 +18,7 @@ function NormalFetching() {
 
     return (
         <div>
-            {loading && <h1>Loading.....</h1>}
+            {loading && <h1>Loading!.....</h1>}
             {
                 user.map(user => (
                     <div key={user.id}>{user.name}</div>
